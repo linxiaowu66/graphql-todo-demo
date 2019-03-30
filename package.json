@@ -1,0 +1,32 @@
+{
+  "name": "graphql-todo-demo",
+  "version": "1.0.0",
+  "description": "graphql todo demo with graphql-js & apollo-graphql",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "keywords": [
+    "graphql",
+    "express",
+    "apollo-graphql"
+  ],
+  "author": "linguang661990@126.com",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.4.8",
+    "body-parser": "^1.18.3",
+    "express": "^4.14.1",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "graphql-subscriptions": "^1.0.0",
+    "graphql-tools": "^4.0.4",
+    "merge-graphql-schemas": "^1.5.8",
+    "mongoose": "^5.4.19",
+    "mongoose-unique-validator": "^2.0.2",
+    "ramda": "^0.26.1",
+    "react-apollo": "^2.5.3",
+    "subscriptions-transport-ws": "^0.9.16",
+    "uuid": "^3.3.2"
+  }
+}

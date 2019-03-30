@@ -1,0 +1,14 @@
+{
+  "apps": [{
+    "name": "test",
+    "script": "io.js",
+    "cwd": "/Users/linxiaowu/Github/nodejs-rtc-demo",
+    "instances": 6,
+    "exec_mode": "cluster",
+    "watch": false,
+    "env_production": {
+      "NODE_ENV": "production"
+    },
+    "log_date_format": "DD-MM-YYYY HH:MM:ss"
+  }]
+}

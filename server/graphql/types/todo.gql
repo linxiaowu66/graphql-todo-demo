@@ -1,0 +1,40 @@
+type Item {
+  id: ID,
+  title: String,
+  complete: Boolean
+}
+# Subscription action type
+enum ActionType {
+  ACTIONS_CREATE
+  ACTIONS_UPDATE
+  ACTIONS_DELETE
+  ACTIONS_TOGGLE_ALL
+}
+
+input ItemInput {
+  id: ID!,
+  title: String
+  complete: Boolean
+}
+
+
+type Query {
+  todos: [Item]
+}
+
+type Mutation {
+  createTodo(title: String!): Item
+  updateTodo(payload: ItemInput): Item
+  toggleAll(complete: Boolean!): Item,
+  deleteTodos(ids: [ID]!): [ID]
+}
+
+type SubscriptionResponse {
+  payload: [Item]
+  type: ActionType!
+}
+
+type Subscription {
+  # Subscription fires on todo changed
+  todoChanged(filter: String): SubscriptionResponse!
+}
