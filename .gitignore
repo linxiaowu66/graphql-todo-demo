@@ -63,13 +63,7 @@ sessions
 
 # dist directory
 static/dist
-docs/swagger-html
-src/server/requests
-src/server/mock-controllers
-docs/swagger.yaml
-docs/html/spec-files/swagger.yaml
-src/server/swagger/definitions.js
-.javadoc/
+
 
 #.bak
 *.bak
