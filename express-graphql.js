@@ -14,6 +14,8 @@ const fakeDatabase = [{
   author: 'pp1'
 }];
 
+// 鉴于express-graphql还未支持Graphiql => subscription，所以无法使用express-graphql演示。相关的PR社区已经提交，但是作者一直没有merge发布：https://github.com/graphql/express-graphql/pull/436
+
 // 很多人都疑惑：gql和buildSchema有何区别？答案是
 // gql只是使用graphql-js包的parse函数去解析一段GraphQL语法生成document，
 // 而buildSchema不仅使用parse函数生成document，他还会对document进行再次解析生成GraphQLSchema实例，二者是不一样的因此不可互相替代。
