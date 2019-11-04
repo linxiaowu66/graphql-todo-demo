@@ -22,7 +22,7 @@
     "graphql-subscriptions": "^1.0.0",
     "graphql-tools": "^4.0.4",
     "merge-graphql-schemas": "^1.5.8",
-    "mongoose": "^5.4.19",
+    "mongoose": "^5.7.5",
     "mongoose-unique-validator": "^2.0.2",
     "ramda": "^0.26.1",
     "react-apollo": "^2.5.3",
