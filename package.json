@@ -14,7 +14,7 @@
   "author": "linguang661990@126.com",
   "license": "MIT",
   "dependencies": {
-    "apollo-server-express": "^2.4.8",
+    "apollo-server-express": "^2.14.2",
     "body-parser": "^1.18.3",
     "express": "^4.14.1",
     "express-graphql": "^0.7.1",
