@@ -40,7 +40,7 @@ cd server && node apollo-graphql-pubsub.js
 
 为了看懂这3个demo,可以参考我的系列文章:
 
-1. [GraphQL学习之基础篇](https://blog.5udou.cn/#/blog/detail/GraphQLXue-Xi-Zhi-Ji-Chu-Pian-99)
+1. [GraphQL学习之基础篇](https://blog.5udou.cn/blog/detail/GraphQLXue-Xi-Zhi-Ji-Chu-Pian-99)
 
 
-2. [GraphQL学习之原理篇](https://blog.5udou.cn/#/blog/detail/GraphQLXue-Xi-Zhi-Yuan-Li-Pian-64)
+2. [GraphQL学习之原理篇](https://blog.5udou.cn/blog/detail/GraphQLXue-Xi-Zhi-Yuan-Li-Pian-64)
